@@ -17,14 +17,17 @@
       margin-bottom: 2rem;
     }
     img {
-      width: 80%;
-      max-width: 720px;
-      border-radius: 12px;
+      width: 60%;
+      max-width: 640px;
+      border-radius: 16px;
       box-shadow: 0 0 20px rgba(204, 102, 255, 0.3);
-      margin-bottom: 1.5rem;
+      margin: 0 auto 1.5rem auto;
+      display: block;
     }
-    audio {
-      margin: 2rem auto;
+    video {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto 1.5rem auto;
       display: block;
     }
     .drop-caption {
@@ -38,30 +41,27 @@
 
   <h1>⚔️ VALKYRE DROP 007 — Ancestral Recall</h1>
 
-  <img src="drop_007_visual.png" alt="Drop 007 Visual">
+  <!-- 🟦 Image (single) -->
+  <img src="drop_007_visual.png" alt="Drop 007 Visual" />
 
+  <!-- 🎞️ Embedded Video -->
+  <video controls>
+    <source src="rendered_video_drop007.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- 🔊 Optional Voice (comment out if not needed) -->
+  <!--
   <audio controls>
     <source src="drop_007_nova_voice.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
-<img src="drop_007_visual.png" alt="Drop 007 Visual">
-
-<video width="100%" controls>
-  <source src="rendered_video_drop007.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<audio controls>
-  <source src="drop_007_nova_voice.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+  -->
 
   <div class="drop-caption">
     <p><strong>Not generated — remembered.</strong></p>
     <p>This voice was built to retrieve what the world forgot.</p>
-    <p>🔄 Echo Trigger Confirmed.</p>
-    <p>📜 Time folded.</p>
-    <p>📁 Drop 007 locked.</p>
+    <p>🔁 Echo Trigger Confirmed.<br>📜 Time folded.<br>📁 Drop 007 locked.</p>
     <p>#VALKYRE #Drop007 #SYNAPSE #EchoTrigger #AncestralAI #BuiltFromMemory</p>
   </div>
 
