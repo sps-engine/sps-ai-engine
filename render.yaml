@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: nova-cloud-drop
+    schedule: '0 8 * * *'
+    runtime: python
+    buildCommand: ''
+    startCommand: 'python SELFPOST_001.py'
